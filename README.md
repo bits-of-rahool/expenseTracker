@@ -42,7 +42,7 @@ A modern, full-stack expense tracking application built with React, Node.js, and
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/bits-of-rahool/expenseTracker.git
 cd expense-tracker
 ```
 
