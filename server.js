@@ -1,14 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const morgan = require('morgan');
 require('dotenv').config();
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(morgan('dev'));
 
 // Db
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/expense-tracker')
