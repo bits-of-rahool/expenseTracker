@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { ResponsivePie } from '@nivo/pie';
-import { ResponsiveBar } from '@nivo/bar';
 import axios from 'axios';
 import {
   Box,
